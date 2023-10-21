@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Gucci",
+      "image": "https://i.ibb.co/pK62cL5/gucci.jpg",
+      "established_year": 1921
+    },
+    {
+      "id": 2,
+      "name": "LouisVuitton",
+      "image": "https://i.ibb.co/pP49PNs/louis-vuitton-logo-design-template-78ffdfd5a7454ac656ed6782e551a9df-screen.jpg",
+      "established_year": 1854
+    },
+    {
+      "id": 3,
+      "name": "Prada",
+      "image": "https://i.ibb.co/JC16K7Q/1513769277-453-prada1-81278a439727-mobile.jpg",
+      "established_year": 1913
+    },
+    {
+      "id": 4,
+      "name": "Chanel",
+      "image": "https://i.ibb.co/DfDD6Pz/1513770087-98-chanel1-preview.jpg",
+      "established_year": 1910
+    },
+    {
+      "id": 5,
+      "name": "Versace",
+      "image": "https://i.ibb.co/XsJcjwD/ede876838fea33f3023070c103a055edf6ed65a0-1140x620.png",
+      "established_year": 1978
+    },
+    {
+      "id": 6,
+      "name": "Dior",
+      "image": "https://i.ibb.co/h9z7QPx/dior-brand-luxury-clothes-logo-symbol-black-design-fashion-illustration-free-vector.jpg",
+      "established_year": 1946
+    }
+  ]
+  
