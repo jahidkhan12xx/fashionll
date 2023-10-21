@@ -25,7 +25,7 @@ const UpdateCard = () => {
         const product = {name,des,url,price,brand,type};
         console.log(product);
 
-        fetch(`http://localhost:3000/data/${id}`,{
+        fetch(`https://server-site-qr6cj5tlt-mizan181.vercel.app/data/${id}`,{
             method:"PUT",
             headers:{
                 'content-type':"application/json"

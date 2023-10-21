@@ -15,7 +15,7 @@ const SingleBrandDetails = ({singleBrand}) => {
   const cartProduct = {user_email,name,des,price,rating,type,brand,url};
 
   const handleAddToCart = () =>{
-    fetch("http://localhost:3000/cart",
+    fetch("https://server-site-qr6cj5tlt-mizan181.vercel.app/cart",
     {
       method:"POST",
       headers:{

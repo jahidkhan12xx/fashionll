@@ -25,7 +25,7 @@ const BrandDetails = () => {
         setSpecific(filteredData);
 
     },[addedData,id])
-    console.log(addedData,specific);
+    // console.log(addedData,specific);
     return (
         <div>
            {

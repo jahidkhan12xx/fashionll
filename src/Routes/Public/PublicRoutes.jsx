@@ -38,22 +38,22 @@ const PublicRoutes = createBrowserRouter([
             {
                 path:"/cart",
                 element:<Protected><Cart></Cart></Protected>,
-                loader:()=> fetch("http://localhost:3000/cart")
+                loader:()=> fetch("https://server-site-qr6cj5tlt-mizan181.vercel.app/cart")
             },
             {
                 path:"/brands/:id",
                 element:<Protected><BrandDetails></BrandDetails></Protected>,
-                loader:()=> fetch("http://localhost:3000/data")
+                loader:()=> fetch("https://server-site-qr6cj5tlt-mizan181.vercel.app/data")
             },
             {
                 path:"/view/:id",
                 element:<ViewCard></ViewCard>,
-                loader:({params})=> fetch(`http://localhost:3000/data/${params.id}`)
+                loader:({params})=> fetch(`https://server-site-qr6cj5tlt-mizan181.vercel.app/data/${params.id}`)
             },
             {
                 path:"/update/:id",
                 element:<UpdateCard></UpdateCard>,
-                loader:({params})=> fetch(`http://localhost:3000/data/${params.id}`)
+                loader:({params})=> fetch(`https://server-site-qr6cj5tlt-mizan181.vercel.app/data/${params.id}`)
             }
         ]
     }

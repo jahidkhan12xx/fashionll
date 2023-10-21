@@ -17,7 +17,7 @@ const AddProduct = () => {
         const product = {name,des,url,price,brand,type,rating};
         console.log(product);
 
-        fetch("http://localhost:3000/data",{
+        fetch("https://server-site-qr6cj5tlt-mizan181.vercel.app/data",{
             method:"POST",
             headers:{
                 'content-type':"application/json"
