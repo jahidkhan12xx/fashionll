@@ -42,7 +42,7 @@ const PublicRoutes = createBrowserRouter([
             },
             {
                 path:"/brands/:id",
-                element:<BrandDetails></BrandDetails>,
+                element:<Protected><BrandDetails></BrandDetails></Protected>,
                 loader:()=> fetch("http://localhost:3000/data")
             },
             {
